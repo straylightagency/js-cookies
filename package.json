@@ -1,9 +1,13 @@
 {
   "name": "@straylightagency/cookies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to ease the use the browser Cookies with helpers functions",
   "type": "module",
   "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*"
+  },
   "files": [
     "src"
   ],
