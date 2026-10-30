@@ -1,0 +1,33 @@
+{
+  "name": "@straylightagency/cookies",
+  "version": "1.1.0",
+  "description": "A lightweight JavaScript utility to simplify working with browser cookies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "cookies"
+  ],
+  "author": "Anthony Pauwels (anthony@straylightagency.be)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/straylightagency/js-cookies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/straylightagency/js-cookies/issues"
+  },
+  "homepage": "https://github.com/straylightagency/js-cookies#readme"
+}
