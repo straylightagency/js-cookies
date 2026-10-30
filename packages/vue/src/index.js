@@ -15,7 +15,7 @@ const default_options = {
  * @param {*} initial
  * @returns {Array}
  */
-export function useCookie(key, initial = undefined) {
+function useCookie(key, initial = undefined) {
     const getter = ref(cookies.get(key, initial));
 
     const setter = (new_value, options = {}) => {
@@ -42,3 +42,8 @@ export function useCookie(key, initial = undefined) {
         remove,
     ];
 }
+
+export {
+    useCookie,
+    cookies
+};
